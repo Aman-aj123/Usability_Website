@@ -1,0 +1,338 @@
+/* Google_Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Heebo&family=Poppins:ital,wght@0,700;0,900;1,600;1,800&family=Roboto+Slab&family=Roboto:ital,wght@0,100;1,100&family=Work+Sans:ital,wght@0,300;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Heebo&family=Poppins:ital,wght@0,700;0,900;1,600;1,800&family=Roboto+Slab&family=Roboto:ital,wght@0,100;1,100&family=Work+Sans:ital,wght@0,300;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+
+:root {
+    --big-heading-color: #183b56;
+    --big-heading-size: 48px;
+    --2-big-heading-size: 33px;
+    --big-heading-font-family: 'Cairo', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Work Sans', sans-serif;
+
+    --para-color--: #6687a8;
+    --para-size--: 22px;
+    --mini-para-color: #547a99;
+    --mine-para-size: 20px;
+    --para-font-family--: 'Cairo', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Work Sans', sans-serif;
+
+    --hover-color: #1636a0;
+}
+
+
+/* starting_Header_section  */
+.top-header h4 {
+    background-color: rgb(223, 41, 138);
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 20px 0;
+}
+
+header {
+    padding: 40px;
+}
+
+header nav {
+    justify-content: space-around;
+}
+
+
+
+header ul a {
+    text-decoration: none;
+    color: rgb(10, 10, 12);
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: var(--big-heading-font-family);
+    margin: 0 15px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+header ul a:hover {
+    color: var(--hover-color);
+}
+
+/* ending_Header_section  */
+
+
+
+
+
+/* starting main section  */
+
+.top-heading{
+    margin-left: 12vh;
+}
+
+.top-heading h1 {
+    font-size: var(--big-heading-size);
+    color: var(--big-heading-color);
+    font-family: sans-serif;
+}
+
+.top-heading  p {
+    color: var(--mini-para-color);
+    margin-top: 3vh;
+    font-size: var(--mine-para-size);
+
+}
+
+
+#main {
+    margin-left: 12vh;
+}
+
+
+.main-items .top-items {
+    margin-top: 12vh;
+}
+
+
+.main-items .top-items p {
+font-size: var(--mine-para-size);
+color: var(--mini-para-color);
+}
+
+.main-items .top-items h3{
+ font-size: 28px;
+font-family: var(--para-font-family--);
+letter-spacing: 1px;
+ color: var(--big-heading-color);
+}
+
+ 
+
+.bottom-items .image img{
+width: 593px;
+}
+
+.bottom-items .content {
+
+}
+
+.bottom-items .content .image-para {
+font-size: 24px;
+font-weight: 700;
+width: 416px;
+color: var(--big-heading-color);
+font-weight: 500;
+line-height: 1.4;
+font-family: Averta PE,sans-serif;
+margin-top: 3vh;
+}
+ 
+.bottom-items {
+    display: flex;
+    gap: 15vh
+}
+
+.bottom-items .content{
+    margin-top: 3vh;
+}
+
+.user-items{
+    margin-top: 3vh;
+}
+
+.user-items .user-btn {
+    margin-top: 4vh;
+}
+
+.user-items .user-btn a{
+    border: 1px solid rgb(179, 177, 177);
+    padding: 10px 30px;
+    color: rgb(5, 5, 20);
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    transition: 2s eses;
+    cursor: pointer;
+}
+
+.user-items .user-btn a:hover{
+    border: 1px solid blue;
+    color: blue;
+}
+
+.user-items h4{
+font-size: 21px;
+letter-spacing: 1px !important;
+color: var(--big-heading-color);
+font-family: var(--big-heading-font-family);
+}
+
+.user-items p{
+    color: var(--mini-para-color);
+
+}
+
+.main-items .second {
+    margin-top: 14vh;
+}
+/* ending main section  */
+
+
+
+/* starting-Get-started-section  */
+#get-started {
+    background-color: #183b54; 
+    padding: 60px 0;
+    margin-top: 8vh;
+}
+#get-started h3 {
+font-size: var(--2-big-heading-size);
+color: var(--big-heading-color);
+font-family: var(--big-heading-font-family);
+color: white;
+letter-spacing: 1px;
+}
+
+#get-started p{
+    color: var(--mini-para-color);
+    font-size: 22px;
+    font-family: sans-serif !important;
+    margin-top: 7vh;
+}
+
+#get-started  .get-started-btn  {
+    margin-top: 7vh;
+}
+
+#get-started .get-started-btn a{
+    background-color: #1d3eac !important;
+    border: none !important;
+    padding: 20px 33px !important;
+    color: white !important;
+    letter-spacing: 1px !important;
+    font-weight: bold !important;
+    cursor: pointer !important;
+    transition: .3s !important;
+    border-radius: 6px !important;
+}
+
+#get-started .get-started-btn a:hover {
+    background-color: rgb(8, 8, 83) !important;
+}
+
+/* ending-Get-started-section  */
+
+
+
+
+
+/* starting_footer_section  */
+footer .center-footer {
+    margin-top: 0vh ;
+    display: flex;
+    justify-content: space-around;
+    background-color: #e5e8ec;
+    padding: 10vh 0;
+}
+
+footer .center-footer li {
+    margin-top: 10px;
+}
+
+footer .center-footer a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(129, 125, 125);
+    transition: .3s;
+    cursor: pointer;
+}
+
+footer .center-footer a:hover {
+    color: blue;
+  margin-left: 2px;
+}
+
+footer .center-footer h3 {
+    font-size: 18px;
+    letter-spacing: 1px ;
+    font-family: var(--big-heading-font-family);
+}
+
+.last-footer {
+    background: rgb(188, 188, 240);
+    padding: 2vh 0;
+    justify-content: space-around;
+}
+
+ 
+
+
+.last-footer a {
+    color: rgb(4, 4, 37);
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-family: var(--big-heading-font-family);
+    font-weight: bold;
+    margin: 0 8vh;
+    transition: .3s;
+}
+
+
+footer .last-footer a:hover {
+    color: blue;
+}
+
+.link-logos{
+    display: flex;
+    align-items: center;
+}
+
+.link-logos i {
+    font-size: 22px;
+    margin: 0 4vh;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.link-logos i:hover {
+    color: blue;
+}
+
+
+
+ /* Extra Codes  */
+html, body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+
+
+ /* burger  */
+ .ham-burger {
+    cursor: pointer;
+    display: none;
+  }
+  
+  .ham-burger .burger {
+    height: 3px;
+    width: 30px;
+    background-color: rgb(4, 4, 66);
+    margin-top: 5px;
+  }

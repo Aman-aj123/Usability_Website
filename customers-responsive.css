@@ -1,0 +1,246 @@
+@media (max-width: 796px) {
+    footer .center-footer {
+        margin-top: 0vh ;
+        display: flex;
+        flex-direction: column;
+        background-color: #e5e8ec;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .center-footer .products{
+        margin-top: 5vh;
+    }
+
+    footer .center-footer .Metholodigies{
+        margin-top: 5vh;
+    }
+
+    footer .center-footer .Resources{
+        margin-top: 5vh;
+    }
+}
+
+
+@media (max-width: 874px) {
+    .links {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .links a {
+        margin-top: 10vh;
+        text-align: center;
+    }
+    }
+    
+    @media (max-width: 466px) {
+        .last-footer {
+            flex-direction: column;
+        }
+    
+        .links a {
+            margin-top: 5vh;
+            text-align: center;
+        }
+    
+        .link-logos{
+            justify-content: center;
+            margin-top: 12vh;
+        }
+    
+        .link-logos i {
+            margin: 0 7vh;
+        }
+    }
+
+
+
+
+ /* Nav bar  */
+@media (max-width: 1068px) {
+header nav  .nav-links {
+position: absolute;
+width: 100%;
+height: 100vh;
+background-color: white;
+top: 13vh; 
+left: -100%;
+transition: 0.4s ease;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+
+header nav   .active {
+  left: 0;
+}
+
+header nav ul {
+    flex-direction: column;/
+}
+
+header ul li{
+    margin-top: 5vh;
+}
+
+ 
+
+.header-button {
+    display: flex;
+    flex-direction: column;
+     text-align: center;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 5vh;
+}
+
+.header-button a:nth-child(2) {
+margin-top: 3vh;
+}
+
+.header-button a{
+    width: 100%;
+}
+
+
+.ham-burger {
+    position: absolute;
+    right: 50px;
+    display: block;
+}
+
+.header-logo {
+    position: absolute;
+    left: 2vh;
+}
+
+ 
+}
+
+
+
+
+
+/* Manin section  */
+@media (max-width: 1154px) {
+   
+    .bottom-items .image img {
+      width: 525px;
+    }
+
+}
+
+
+@media (max-width: 1087px)  {
+ .bottom-items {
+        display: flex;
+        gap: 15vh;
+        flex-direction: column;
+    }
+
+    .bottom-items .content {
+        margin: auto;
+    }  
+
+     .bottom-items .image img {
+      width: 900px;  
+    } 
+
+    .bottom-items .image{
+          margin: auto;
+    }
+
+    .main-items .top-items h3{
+        font-size: 28px;
+        margin-bottom: 2vh;
+        text-align: center;
+        line-height: 1.1;
+       }
+       .content {
+        margin-top: -10vh !important;
+       }
+}
+
+@media (max-width: 1003px) {
+    .bottom-items .image img {
+        width: 700px;  
+      } 
+} 
+
+
+      @media (max-width: 793px) {
+    .bottom-items .image img {
+        width: 500px;  
+    }
+      .top-items  {
+        margin-top: 20vh !important;
+      }
+
+      .main-items .top-items h3{
+        font-size: 24px;
+        margin-bottom: 2vh;
+        text-align: center;
+        line-height: 1.1;
+       }
+     
+       .main-items .content .image-para{
+        font-size: 24px;
+        margin-bottom: 2vh;
+        line-height: 1.1;
+       }
+} 
+
+
+@media (max-width: 584px) {
+    .bottom-items .image img {
+        width: 400px;  
+    }
+}
+
+@media (max-width: 491px) {
+    .bottom-items .image img {
+        width: 400px;  
+    }
+}
+
+
+@media (max-width: 491px) {
+    .bottom-items .image img {
+        width: 330px;  
+    }
+
+    .main-items .top-items h3{
+        font-size: 22px;
+       }
+     
+       .main-items .content .image-para{
+        font-size: 22px;
+       }
+
+       .top-heading h1 {
+        font-size: 36px !important;
+       }
+}
+
+@media (max-width: 478px) {
+    .main-items .content .image-para{
+        font-size: 20px;
+        width: 88%;
+       }
+}
+
+@media (max-width: 414px) {
+    .bottom-items .image img {
+        width: 270px;  
+    }
+    .main-items .content .image-para{
+        font-size: 19px;
+        width: 88%;
+       }
+
+       .main-items .top-items h3{
+        font-size: 20px;
+       }
+}

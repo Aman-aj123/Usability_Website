@@ -1,0 +1,394 @@
+ 
+ /* Home_section  */
+
+ @media (max-width: 1124px) {
+    .home-image img {
+        width: 560px;
+    }
+ }
+
+ @media (max-width: 1100px) {
+    #home {
+        justify-content: center !important;
+        flex-direction: column-reverse;
+    }
+
+    .home-content {
+       margin: auto;
+    }
+  
+    .home-image {
+        margin: auto;
+    }
+    
+ }
+
+
+
+ @media (max-width: 618px) {
+    .home-image img {
+        width: 510px;
+    }
+ }
+
+ @media (max-width: 570px) {
+    .home-image img {
+        width: 440px;
+    }
+
+    .home-content h1 {
+      font-size: 44px;
+     }
+
+     .home-content p{
+        font-size: 20px;
+        margin-top: 2vh !important;
+     }
+ }
+
+ @media (max-width: 536px) {
+ .home-content p{
+    width: 400px;
+ } 
+
+ }
+
+
+ @media (max-width: 490px) {
+    .home-image img {
+        width: 340px;
+    }
+
+    .home-content h1 {
+        font-size: 42px;
+       }
+  
+ }
+
+
+ @media (max-width: 416px) {
+    .home-content h1 {
+        font-size: 40px;
+       }
+ }
+
+ @media (max-width: 458px) {
+    .home-content h1 {
+        font-size: 37px;
+       }
+
+       .home-content p{
+        width: 350px;
+     } 
+ }
+
+
+ @media (max-width: 400px) {
+    .home-content h1 {
+        font-size: 34px;
+       }
+
+       .home-content p{
+        width: 310px;
+     } 
+ }
+
+
+
+
+ /* Company_section  */
+ @media (max-width: 926px) {
+    .company-images {        
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 5vh;
+    }
+ }
+
+ @media (max-width: 514px) {
+    .company-images {        
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 5vh;
+    }
+ }
+
+
+
+
+
+ /* Features_section  */
+@media (max-width: 1153px) {
+    .features-content {     
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 13vh;
+    }
+}
+
+@media (max-width: 770px) {
+    .features-content {     
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 13vh;
+    }
+}
+
+
+
+/* Hero_section  */
+@media (max-width: 1108px) {
+    .all-content {
+     justify-content: none;
+     flex-direction: column;
+        }
+
+        .content-one-image {
+            margin: auto;
+        }
+
+        .content-one-tittle {
+            margin: auto;
+        }
+
+        .content-two-tittle {
+            margin: auto;
+        }
+
+        .content-three-tittle {
+            margin: auto;
+        }
+    }
+
+
+    @media (max-width: 603px) {
+        .content-one-image img {
+            width: 480px;
+        }
+    }
+
+
+@media (max-width: 533px) {
+    .all-first-h2 {
+        font-size: 27px;  
+       }
+    
+    .all-first-para {             
+        font-size: 19px;    
+    }
+
+    .content-one-image img {
+        width: 410px;
+    }
+}
+
+@media (max-width: 439px) {
+    .all-first-h2 {
+        font-size: 23px;  
+       }
+    
+    .all-first-para {             
+        font-size: 17px;   
+    }
+
+    .content-one-image img {
+        width: 350px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    #hero {
+        text-align: center;
+    }
+}
+
+
+
+/* Features_seciton  */
+@media (max-width: 1279px) {
+    .plattform-images {
+        justify-content: center;
+        grid-template-columns: repeat(2, 0fr);
+        row-gap: 2vh;
+        column-gap: 5vh
+    }
+
+    .plattform-images .items {
+        width: 500px;
+        height: 270px;
+    }
+
+    .plattform-images .items h3 {
+        position: relative;
+       top: 23vh;
+       left: 3vh;
+       font-size: 28px;
+    }
+}
+
+ 
+
+@media (max-width: 1052px) {
+    .plattform-images {
+        justify-content: center;
+        grid-template-columns: repeat(1, 0fr);
+        row-gap: 4vh;
+        column-gap: 20vh
+    } 
+}
+
+@media (max-width: 626px) {
+    #plattform h1 {
+        font-size: 28px;
+        line-height: 1.2;
+        margin-bottom: 3vh;
+    }
+}
+
+@media (max-width: 534px) {
+    .plattform-images .items {
+        width: 400px;
+        height: 270px;
+    }
+}
+
+@media (max-width: 423px) {
+    .plattform-images .items {
+        width: 300px;
+        height: 230px;
+    }
+
+    .plattform-images .items h3 {
+        position: relative;
+       top: 23vh;
+       left: 3vh;
+       font-size: 22px;
+    }
+ 
+    }
+
+
+
+/* center_footer  */
+@media (max-width: 796px) {
+    footer .center-footer {
+        margin-top: 0vh ;
+        display: flex;
+        flex-direction: column;
+        background-color: #e5e8ec;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer .center-footer .products{
+        margin-top: 5vh;
+    }
+
+    footer .center-footer .Metholodigies{
+        margin-top: 5vh;
+    }
+
+    footer .center-footer .Resources{
+        margin-top: 5vh;
+    }
+}
+
+
+@media (max-width: 874px) {
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.links a {
+    margin-top: 10vh;
+    text-align: center;
+}
+}
+
+@media (max-width: 466px) {
+    .last-footer {
+        flex-direction: column;
+    }
+
+    .links a {
+        margin-top: 5vh;
+        text-align: center;
+    }
+
+    .link-logos{
+        justify-content: center;
+        margin-top: 12vh;
+    }
+
+    .link-logos i {
+        margin: 0 7vh;
+    }
+}
+
+
+
+
+/* Nav_bar  */
+@media (max-width: 1068px) {
+header nav  .nav-links {
+position: absolute;
+width: 100%;
+height: 100vh;
+background-color: white;
+top: 13vh; 
+left: -100%;
+transition: 0.4s ease;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+
+header nav   .active {
+  left: 0;
+}
+
+header nav ul {
+    flex-direction: column;/
+}
+
+header ul li{
+    margin-top: 5vh;
+}
+
+ 
+
+.header-button {
+    display: flex;
+    flex-direction: column;
+     text-align: center;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 5vh;
+}
+
+.header-button a:nth-child(2) {
+margin-top: 3vh;
+}
+
+.header-button a{
+    width: 100%;
+}
+
+
+.ham-burger {
+    position: absolute;
+    right: 50px;
+    display: block;
+}
+
+.header-logo {
+    position: absolute;
+    left: 2vh;
+}
+
+ 
+}
+
+
+
+
+ 
